@@ -1,0 +1,7 @@
+extend-include = ["*.ipynb"]
+
+[lint]
+select = ["E", "F", "UP", "B", "I", "SIM"]
+
+[format]
+docstring-code-format = true
