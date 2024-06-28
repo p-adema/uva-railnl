@@ -2,6 +2,7 @@ extend-include = ["*.ipynb"]
 
 [lint]
 select = ["E", "F", "UP", "B", "I", "SIM"]
+ignore = ["F401"]  # We need to set the env var for Keras before importing
 
 [format]
 docstring-code-format = true

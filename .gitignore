@@ -1,7 +1,14 @@
 # Data files: shouldn't live on GitHub
-data/*.xlsx
-data/*.csv
-data/*.pq
+data/*/*.pq
+data/*/*.parquet
+data/*/*.csv
+data/*/*.npy
+data/*/*.npz
+
+# Models and model images
+models/*.keras
+src/*.png
+/*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
